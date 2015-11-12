@@ -5,12 +5,10 @@
  */
 
 
-#video-background {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-}
+
+
+/* ================ Page-wide settings =============== */
+
 
 body {
     width: 100%;
@@ -64,6 +62,11 @@ a:focus {
     text-decoration: none;
     color: #1d9b6c;
 }
+
+
+
+/* ================== Navigation bar ================== */
+
 
 .light {
     font-weight: 400;
@@ -148,6 +151,16 @@ a:focus {
     }
 }
 
+/* ================= landing page ================== */
+
+#video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+
 .intro {
     display: table;
     width: 100%;
@@ -176,10 +189,28 @@ a:focus {
     font-size: 18px;
 }
 
-@media(min-width:768px) {
+
+
+@media(min-width:800px) {
     .intro {
-        height: 100%;
-        padding: 0;
+        /*height: 100%;*/
+        padding-top: 100px;
+    }
+
+    .intro .intro-body .brand-heading {
+        font-size: 70px;
+    }
+
+    .intro .intro-body .intro-text {
+        font-size: 22px;
+    }
+}
+
+
+@media(min-width:1050px) {
+    .intro {
+        /*height: 100%;*/
+        padding-top: 130px;
     }
 
     .intro .intro-body .brand-heading {
@@ -190,6 +221,8 @@ a:focus {
         font-size: 26px;
     }
 }
+
+/* ============== the button on landing page ================= */
 
 .btn-circle {
     width: 70px;
@@ -265,9 +298,14 @@ a:focus {
     }
 }
 
+
+/* =========== the first section below landing page =========== */
+
 .content-section {
     padding-top: 100px;
 }
+
+/* ============ the second section ============ */
 
 .gallery-section {
     width: 100%;
@@ -292,7 +330,7 @@ a:focus {
         padding-top: 250px;
     }
 
-    .download-section {
+    .gallery-section {
         padding: 100px 0;
     }
 
