@@ -161,11 +161,15 @@ a:focus {
 }
 
 
+video {
+    height: 450px;
+}
+
 .intro {
     display: table;
     width: 100%;
     height: 56.25vw;
-    padding: 100px 0;
+    padding: 130px 0;
     text-align: center;
     color: #fff;
     /*background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;*/
@@ -192,9 +196,14 @@ a:focus {
 
 
 @media(min-width:800px) {
+
+    video {
+        height: 560px;
+    }
+
     .intro {
         /*height: 100%;*/
-        padding-top: 100px;
+        /*padding-top: 130px;*/
     }
 
     .intro .intro-body .brand-heading {
@@ -208,9 +217,15 @@ a:focus {
 
 
 @media(min-width:1050px) {
+
+    video {
+        width:  100%;
+        height: 100%;
+    }
+
     .intro {
         /*height: 100%;*/
-        padding-top: 130px;
+        /*padding-top: 130px;*/
     }
 
     .intro .intro-body .brand-heading {
