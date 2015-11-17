@@ -322,18 +322,6 @@ video {
 
 /* ============ the second section ============ */
 
-#galleryitems {
-    padding:0 0 0 0;
-    margin:0 0 40px 0;
-}
-#galleryitems li {
-    list-style:none;
-    margin-bottom:10px;
-}
-#galleryitems li.bspHasModal {
-    cursor: pointer;
-}
-
 .gallery-section {
     width: 100%;
     padding: 50px 0;
