@@ -1,0 +1,23 @@
+<div id="links">
+    <a href="img/gallery/display/150lux.jpg" title="150lux.jpg" data-gallery>
+        <img src="img/gallery/thumbnails/150lux.jpg" alt="150lux.jpg">
+    </a>
+    <a href="img/gallery/display/contour_lines.jpg" title="contour_lines.jpg" data-gallery>
+        <img src="img/gallery/thumbnails/contour_lines.jpg" alt="contour_lines.jpg">
+    </a>
+    <a href="img/gallery/display/dark.jpg" title="dark.jpg" data-gallery>
+        <img src="img/gallery/thumbnails/dark.jpg" alt="dark.jpg">
+    </a>
+    <a href="img/gallery/display/holes.jpg" title="holes.jpg" data-gallery>
+        <img src="img/gallery/thumbnails/holes.jpg" alt="holes.jpg">
+    </a>
+    <a href="img/gallery/display/island.jpg" title="island.jpg" data-gallery>
+        <img src="img/gallery/thumbnails/island.jpg" alt="island.jpg">
+    </a>
+    <a href="img/gallery/display/mountain.jpg" title="mountain.jpg" data-gallery>
+        <img src="img/gallery/thumbnails/mountain.jpg" alt="mountain.jpg">
+    </a>
+    <a href="img/gallery/display/rain.jpg" title="rain.jpg" data-gallery>
+        <img src="img/gallery/thumbnails/rain.jpg" alt="rain.jpg">
+    </a>
+</div>
