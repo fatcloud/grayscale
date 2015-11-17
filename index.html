@@ -29,6 +29,10 @@
     <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
 
+    <!-- Gallery -->
+    <link rel="stylesheet" href="//blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
+    <link rel="stylesheet" href="css/bootstrap-image-gallery.min.css">
+
 
     <!-- Copy from onshape -->
 
@@ -117,16 +121,59 @@
         </div>
     </section>
 
-    <!-- Download Section -->
+    <!-- Gallery Section -->
+    <!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
+    <div id="blueimp-gallery" class="blueimp-gallery">
+        <!-- The container for the modal slides -->
+        <div class="slides"></div>
+        <!-- Controls for the borderless lightbox -->
+        <h3 class="title"></h3>
+        <a class="prev">‹</a>
+        <a class="next">›</a>
+        <a class="close">×</a>
+        <a class="play-pause"></a>
+        <ol class="indicator"></ol>
+        <!-- The modal dialog, which will be used to wrap the lightbox content -->
+        <div class="modal fade">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title"></h4>
+                    </div>
+                    <div class="modal-body next"></div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default pull-left prev">
+                            <i class="glyphicon glyphicon-chevron-left"></i>
+                            Previous
+                        </button>
+                        <button type="button" class="btn btn-primary next">
+                            Next
+                            <i class="glyphicon glyphicon-chevron-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <section id="gallery" class="content-section text-center">
         <div class="aspect-gallery">
             <div class="gallery-section">
                 <div class="container">
                     <div class="col-lg-8 col-lg-offset-2">
-                        <h2>Download Grayscale</h2>
-                        <p>You can download Grayscale for free on the preview page at Start Bootstrap.</p>
-                        <p>another line goes by.</p>
-                        <a href="http://startbootstrap.com/template-overviews/grayscale/" class="btn btn-default btn-lg">Visit Download Page</a>
+                        <h2>實機影像</h2>
+                        <div id="links">
+                            <a href="img/gallery/display/150lux.jpg" title="150lux.jpg" data-gallery></a>
+                            <a href="img/gallery/display/contour_lines.jpg" title="contour_lines.jpg" data-gallery></a>
+                            <a href="img/gallery/display/dark.jpg" title="dark.jpg" data-gallery></a>
+                            <a href="img/gallery/display/holes.jpg" title="holes.jpg" data-gallery></a>
+                            <a href="img/gallery/display/island.jpg" title="island.jpg" data-gallery></a>
+                            <a href="img/gallery/display/mountain.jpg" title="mountain.jpg" data-gallery>
+                                <img src="img/gallery/thumbnails/mountain.jpg" alt="mountain.jpg">
+                            </a>
+                            <a href="img/gallery/display/rain.jpg" title="rain.jpg" data-gallery></a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -180,6 +227,10 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="js/grayscale.js"></script>
+
+    <!-- Gallery -->
+    <script src="//blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
+    <script src="js/bootstrap-image-gallery.min.js"></script>
 
 </body>
 
